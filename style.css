@@ -1,0 +1,119 @@
+.main{
+    height: 100vh;
+}
+#section1 {
+    background-image: url(./assets/images/image1.png);
+    background-size: cover;
+    height: 50%;
+    align-items: center;
+    align-content: center;
+}
+.menu-items {
+    display: inline-block;
+    list-style: none;
+}
+.date {
+    rotate: -6deg;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#section2 {
+    background-size: cover;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+}
+
+#section3 {
+    background-image: url(./assets/images/accomodation.png);
+    background-size: cover;
+    height: 600px;
+    align-items: center;
+    align-content: center;
+}
+
+#section5 {
+    background-color: aquamarine;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+}
+
+#section6 {
+    background-image: url(./assets/images/image3.jpg);
+    background-size: cover;
+    height: 600px;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+
+.background-image{
+    width: 100%;
+    height: 300px;
+}
+.couple{
+    display: inline-block;
+    padding: 10px;
+    background-color: aliceblue;
+    width: 300px;
+    margin-left: 200px;
+}
+
+.couple img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+.group{
+    display: inline-block;
+    padding: 10px;
+    background-color: aliceblue;
+    width: 270px;
+    margin-left: 100px;
+}
+.group img{
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+#nav-menu {
+    align-items: first baseline;
+    align-content: center;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+
+.name {
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+#section5 {
+    text-align: center;
+}
+
+h1,h2,h3,p {
+    text-align: center;
+    align-items: center;
+}
+
+.rsvp-box {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    
+}
+
+
+button {
+    background-color: white;
+    color: blueviolet;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+}
